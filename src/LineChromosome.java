@@ -7,6 +7,9 @@ public class LineChromosome extends BinaryChromosome {
 		super(51);
 		this.points = points;
 	}
+	public LineChromosome() {
+		super(51);
+	}
 	private Random random = new Random();
 	double generateNumber(int sign, int numerator, int denominator) {
 		if (sign ==0) {

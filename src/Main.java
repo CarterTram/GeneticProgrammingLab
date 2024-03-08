@@ -58,7 +58,7 @@ public class Main {
 			System.out.println(generation);
 			System.out.println(bestFitness);
 		}
-		System.out.print("Problem solved in "+generation+" generations.");
+		System.out.print("Problem solved in "+generation+" 	generations.");
 		
 		
 		
